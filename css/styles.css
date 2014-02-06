@@ -12,7 +12,6 @@
 
 html, body {
     height: 100%;
-    margin: 0pt;
 }
 
 body {
@@ -109,7 +108,13 @@ textarea.input {
     padding: .25rem;
 }
 
-header .container,
+/**
+ * Delete from line 111 through 126 prior to administering code test.
+ * This will cause the layout to "break" and force the candidate to
+ * think on-their-feet and fix the issue.
+ */
+
+/*header .container,
 footer .container,
 input,
 .input,
@@ -118,7 +123,7 @@ aside {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-}
+}*/
 
 /**
  * End of file styles.css
