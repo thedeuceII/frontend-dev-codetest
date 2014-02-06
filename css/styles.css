@@ -1,0 +1,126 @@
+/**
+ * 
+ * @author  Josh Morningstar (jmorningstar@bevelwise.com)
+ * @date    2014-02-05 15:14:53
+ * @Package Code_Test
+ * @version 1.0.0
+ */
+
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0pt;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #111;
+    background-color: #ffffff;
+}
+
+.frame {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.row {
+    display: table-row;
+    height: 1px;
+}
+
+.row.expand {
+    height: auto;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+header .container {
+    background: lightblue;
+}
+
+section .container {
+    padding: 0;
+}
+
+section.content {
+    background: lightgreen;
+    float: left;
+    height: auto;
+    width: 75%;
+}
+
+article {
+    background: white;
+    margin: 0 0 1rem 0;
+}
+
+article:last-child {
+    margin-bottom: 0;
+}
+
+aside {
+    background: pink;
+    width: 25%;
+    float: right;
+}
+
+.module {
+    background: white;
+}
+
+footer .container {
+    background: aqua;
+}
+
+header,
+section.content,
+article,
+aside,
+.module,
+header .container,
+footer .container {
+    padding: 1rem;
+}
+
+input[type="text"] {
+    color: #111;
+    margin-bottom: 8px;
+    padding: 0 .25rem;
+    width: 100%;
+}
+
+textarea.input {
+    height: 6rem;
+    width: 100%;
+    padding: .25rem;
+}
+
+header .container,
+footer .container,
+input,
+.input,
+section.content,
+aside {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+/**
+ * End of file styles.css
+ * Location: ./css/styles.css
+ */
